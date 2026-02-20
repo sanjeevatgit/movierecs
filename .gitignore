@@ -1,0 +1,50 @@
+.DS_Store
+.idea/
+db.sqlite3*
+.moviegeek_server.pid
+
+# virtial env
+venv/
+.venv/
+
+# secrets
+.env/
+.env
+prs
+.prs
+
+cluster.png
+
+# Python cache
+*/__pycache__/*
+**/__pycache__/*
+*.pyc
+
+#Logs
+*.log
+logs/
+
+#Data
+data/
+datasets/
+*.csv
+*.parquet
+
+#model artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+models/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Android Studio / Gradle
+android-tv/.gradle/
+android-tv/.idea/
+android-tv/local.properties
+android-tv/**/build/
