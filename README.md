@@ -1,4 +1,14 @@
-# The MovieGEEK Installation Guide
+# The Movierecs repository
+
+The repository is based on MovieGeek web app code that accompanies the book Practical Recommender Systems by Kim Falk.  The original readme file is included in this readme, starting at the section "The MovieGEEK Installation Guide".
+
+This repository is different from movieGEEKs in following ways
+* There are two files start-local.sh and stop-local.sh that will start the server and stop the local server.
+* There is Android TV app code.
+* The app is geared towards (1) experimenting with various techniques to capture user data and (2) using LLMs (local or cloud) to create recommendations.
+
+
+## The MovieGEEK Installation Guide
 
 The MovieGEEK is a website initially implemented to accompany my book, Practical Recommender Systems. 
 However, this folder is used for the manning LiveProject, which is currently in MEAP. 
